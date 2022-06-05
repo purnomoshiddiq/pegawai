@@ -105,3 +105,55 @@ footer {
 .menu a:hover {
     background: #000;
 }
+
+/* mengatur desain judul halaman  */
+
+.judul{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+/* mengatur lebar tabel penuh  */
+
+.table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* menambahkan border dan padding pada sel tabel */
+
+.table th, .table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* mengatur background bagian judul tabel */
+
+.table th{
+    background: #eee;
+}
+
+/* mengatur desain tombol */
+
+.tombol{
+    display: inline-block;
+    max-width: 150px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #038ade;
+    cursor: pointer;
+}
+
+/* desain tombol edit */
+
+.tombol.edit, .tombol.hapus{
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.tombol.hapus{
+    background: #fc4c4c;
+}
